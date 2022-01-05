@@ -1,0 +1,20 @@
+<webscript>
+	<shortname>Active Users</shortname>
+	<description>This webscript returns the active users logged-in into
+		Alfresco.
+		Sample response:
+		{
+		activeTicketsCount: 2,
+		activeUsers: "["admin","abhinav@gmail.com "]",
+		activeUsersCount: 2,
+		_comment: "Active user count may be lower than the ticket count, since a user
+		can have more than one ticket/session. Ticket count may be higher than
+		the active user count, since a user can have more than one
+		ticket/session."
+		}
+	</description>
+	<url>/audit/getActiveUsers</url>
+	<format default="json" />
+	<authentication>admin</authentication>
+	<family>Audit</family>
+</webscript>
