@@ -2,6 +2,13 @@
 
 ## Get active users as a json response. This can be useful for administrative purposes and can used used to show resport on a dashboard outside of alfresco.
 
+
+### Sample response:
+
+![sample response](https://github.com/abhinavmishra14/active-users-report/blob/main/sample.png)
+
+[Extracting active logged-in users and active authentication tickets from Alfresco](https://javaworld-abhinav.blogspot.com/2017/04/extracting-active-logged-in-users-and.html)
+
 This is an ACS project based Alfresco SDK 4.3.
 
 Run with `./run.sh build_start` or `./run.bat build_start` and verify that it
